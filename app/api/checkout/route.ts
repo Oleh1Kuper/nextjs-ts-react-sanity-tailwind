@@ -46,8 +46,8 @@ export const POST = async (req: NextRequest) => {
   const session = await stripe.checkout.sessions.create({
     line_items: stripeProducts,
     mode: 'payment',
-    success_url: 'http://localhost:3000/success',
-    cancel_url: 'http://localhost:3000/',
+    success_url: 'https://nextjs-ts-react-sanity-tailwind.vercel.app/success',
+    cancel_url: 'https://nextjs-ts-react-sanity-tailwind.vercel.app',
   });
 
   return NextResponse.json({ url: session.url });
