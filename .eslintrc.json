@@ -34,6 +34,11 @@
         "devDependencies": ["**/*.test.ts", "**/*.test.tsx"]
       }
     ],
-    "arrow-body-style": "off"
+    "arrow-body-style": "off",
+    "no-underscore-dangle": "off",
+    "no-use-before-define": "off",
+    "no-confusing-arrow": "off",
+    "no-restricted-syntax": "off",
+    "no-await-in-loop": "off"
   }
 }

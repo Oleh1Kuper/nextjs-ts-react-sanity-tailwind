@@ -2,8 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
+body.overflow {
+  height: 100vh;
+  overflow: hidden;
+}
+
 @layer utilities {
   .container {
-    @apply m-auto max-w-5xl px-4;
+    @apply m-auto max-w-5xl px-4 xl:px-0;
   }
 }

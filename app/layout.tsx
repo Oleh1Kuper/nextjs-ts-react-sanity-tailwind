@@ -1,7 +1,8 @@
 import React from 'react';
 import type { Metadata } from 'next';
 import { Urbanist } from 'next/font/google';
-import NavBar from './components/NavBar';
+import Provider from '@/provider/Provider';
+import NavBar from '../components/NavBar';
 import './globals.css';
 
 const urbanist = Urbanist({ subsets: ['latin'] });
@@ -18,8 +19,10 @@ const RootLayout = ({
 }>) => (
   <html lang="en">
     <body className={urbanist.className}>
-      <NavBar />
-      {children}
+      <Provider>
+        <NavBar />
+        <main>{children}</main>
+      </Provider>
     </body>
   </html>
 );
