@@ -5,7 +5,7 @@ import { useAppContext } from '@/provider/Provider';
 import { IoMdClose } from 'react-icons/io';
 import CartItem from './CartItem';
 
-const URL = 'https://nextjs-ts-react-sanity-tailwind.vercel.app/api/checkout';
+const URL = `${process.env.NEXT_PUBLIC_CLIENT_URL}/api/checkout`;
 
 const Cart = () => {
   const { isOpenCart, toggleOpen, itemCarts } = useAppContext();
