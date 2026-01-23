@@ -1,10 +1,10 @@
-# ���️ E-Commerce Website - Next.js + TypeScript + Sanity + Stripe + Tailwind
+# E-Commerce Website - Next.js + TypeScript + Sanity + Stripe + Tailwind
 
 E-commerce platform built with cutting-edge technologies. This application provides a seamless shopping experience with product browsing, cart management, and secure payment processing.
 
 ---
 
-## ��� Project Overview
+## Project Overview
 
 This is a full-stack e-commerce application built on [Next.js](https://nextjs.org/) with TypeScript, featuring:
 
@@ -17,7 +17,7 @@ This is a full-stack e-commerce application built on [Next.js](https://nextjs.or
 
 ---
 
-## ���️ Architecture & Technology Stack
+## Architecture & Technology Stack
 
 ### **Frontend**
 - **Next.js 14.2.3**: React framework with App Router for server-side rendering and static generation
@@ -44,7 +44,7 @@ This is a full-stack e-commerce application built on [Next.js](https://nextjs.or
 
 ---
 
-## ��� Project Structure
+## Project Structure
 
 ```
 ├── app/                           # Next.js App Router
@@ -103,7 +103,7 @@ This is a full-stack e-commerce application built on [Next.js](https://nextjs.or
 
 ---
 
-## ��� Key Features
+## Key Features
 
 ### **Product Management**
 - **Sanity CMS Integration**: Content-managed product catalog
@@ -131,7 +131,7 @@ This is a full-stack e-commerce application built on [Next.js](https://nextjs.or
 
 ---
 
-## ��� Getting Started
+## Getting Started
 
 ### **Prerequisites**
 - Node.js 18+ and npm/yarn
@@ -175,7 +175,7 @@ This is a full-stack e-commerce application built on [Next.js](https://nextjs.or
 
 ---
 
-## ��� Available Scripts
+## Available Scripts
 
 | Command | Purpose |
 |---------|---------|
@@ -186,7 +186,7 @@ This is a full-stack e-commerce application built on [Next.js](https://nextjs.or
 
 ---
 
-## ��� Resources
+## Resources
 
 - [Next.js Documentation](https://nextjs.org/docs)
 - [Sanity Documentation](https://www.sanity.io/docs)
